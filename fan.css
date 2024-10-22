@@ -1,0 +1,15 @@
+img {
+    height: 300px;
+     animation-name: fanrotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes fanrotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
